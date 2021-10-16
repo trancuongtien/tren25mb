@@ -1,0 +1,112 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: lightgrey;
+}
+.container{
+	width: 1150px;
+	height: 700px;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.circle{
+	width: 445px;
+	height: 445px;
+	border-radius: 50%;
+	position: absolute;
+}
+.fill{
+	background: #ECE9E9;
+}
+.stroke{
+	border: 1px solid #00000033;
+}
+.tl{
+	left: -20px;
+	z-index: 10;
+}
+.tr{
+	right: -20px;
+}
+.br{
+	bottom: 0;
+	right: -20px;
+}
+.bl{
+	bottom: 0;
+	left: -20px;
+}
+.big-stroke{
+	width: 875px;
+	height: 875px;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	background: url("../img/orange-g2fd845981_1280.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: 20;
+}
+.box{
+	width: 375px;
+	height: 365px;
+	background: white;
+	position: absolute;
+	z-index: 500;
+	left: 50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.feature{
+	height: 215px;
+	background: #ADFFFF;
+	position: relative;
+}
+.feature img{
+	position: absolute;
+}
+.img-1{
+	width: 132px;
+	z-index: 120;
+	bottom: 0;
+	left: 53px;
+}
+.img-2{
+	width: 231px;
+	right: 0;
+	top:0;
+}
+.img-3{
+	width: 256px;
+	right: 0;
+	bottom: 0;
+}
+.content{
+	font-size: 20px;
+	padding: 24px 32px;
+}
+.box-1{
+	width: 375px;
+	height: 365px;
+	border: 2px solid #FFE7E7;
+	position: absolute;
+	z-index: 100;
+	left: 30%;
+	top:20%;
+}
+.box-2{
+	width: 375px;
+	height: 365px;
+	background: #787878;
+	position: absolute;
+	z-index: 50;
+	left: 25%;
+	top:15%;
+}
